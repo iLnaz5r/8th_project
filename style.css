@@ -1,0 +1,98 @@
+.container{
+    display: flex;
+     justify-content: center;
+     min-height: 70vh;
+     align-items: center;
+     text-align: center;
+     background-color: white;
+     border: 17px solid #d2e2f8;
+     border-radius: 20px;
+     flex-direction: column;
+     width: 390px;
+ 
+ }
+ body{
+     display: flex;
+     background-color: #f4f9ff;
+     padding: 100px;
+     justify-content: center;
+     min-height: 20vh;
+     align-items: center;
+ }
+ h1{
+     color: #1b1c40;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .para{
+     color: #383958;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .blueone{
+     color: white;
+     background-color: #4968ad;
+     border-radius: 5px;
+     width: 250px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .or{
+     color: #808080;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ .fname input{
+     display: flex;
+     height: 38px;
+     width: 115px;
+     border: 1px solid #c8d1e5;
+     border-radius: 5px;
+ }
+ 
+ .fname{
+     flex-wrap: wrap;
+     float: inline-start
+ }
+ 
+ .lname input{
+     display: flex;
+     height: 38px;
+     width: 115px;
+     border: 1px solid #c8d1e5;
+     border-radius: 5px;
+ }
+ .lname{
+     float: right;
+ }
+ 
+ .address input{
+     display: flex;
+     height: 40px;
+     width: 250px;
+     border: 1px solid #c8d1e5;
+     border-radius: 5px;
+ }
+ .address{
+     margin-top: 20px;
+ }
+ 
+ .porol input{
+     display: flex;
+     height: 38px;
+     width: 250px;
+     border: 1px solid #c8d1e5;
+     border-radius: 5px;
+ }
+ 
+ button{
+     background-color: #1b1c40;
+     border-radius: 5px;
+     color: white;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     width: 250px;
+     font-size: medium;
+ }
+ 
+ .quo{
+     color: #808080;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: x-small;
+ }
+ 
